@@ -2,74 +2,84 @@
 <html lang="pl">
 <head>
 <meta charset="UTF-8">
-<title>Julia Sztemberg</title>
+<title>Pola Pytkowska</title>
 
 <style>
+
+/* animacja zmiany kolorów tła */
+@keyframes kolor {
+  0% {background-color: #ff6ec7;}
+  25% {background-color: #6effe2;}
+  50% {background-color: #ffe66e;}
+  75% {background-color: #a06eff;}
+  100% {background-color: #ff6ec7;}
+}
+
 body{
-    margin:0;
-    font-family: Arial, sans-serif;
-    background-color:#ffc0da;
-    text-align:center;
+  margin:0;
+  font-family: Arial, sans-serif;
+  text-align:center;
+  animation: kolor 8s infinite;
 }
 
-/* Nagłówek */
+/* nagłówek */
 header{
-    background:#ff6fa5;
-    color:white;
-    padding:25px;
-    font-size:32px;
+  background: rgba(0,0,0,0.6);
+  color:white;
+  padding:25px;
+  font-size:32px;
 }
 
-/* Sekcja główna */
+/* sekcja */
 main{
-    padding:40px;
+  padding:40px;
 }
 
 h1{
-    font-size:40px;
-    color:#7a003c;
+  font-size:40px;
+  color:white;
 }
 
 p{
-    font-size:22px;
-    color:#7a003c;
+  font-size:22px;
+  color:white;
 }
 
-/* Obraz */
-.landscape{
-    margin-top:30px;
-    width:70%;
-    max-width:700px;
-    border-radius:15px;
-    box-shadow:0 0 15px rgba(0,0,0,0.3);
+/* gif */
+.gif{
+  margin-top:30px;
+  width:300px;
+  border-radius:15px;
+  box-shadow:0 0 15px rgba(0,0,0,0.4);
 }
 
-/* Stopka */
+/* stopka */
 footer{
-    margin-top:40px;
-    background:#ff6fa5;
-    color:white;
-    padding:15px;
+  margin-top:40px;
+  background: rgba(0,0,0,0.6);
+  color:white;
+  padding:15px;
 }
+
 </style>
 </head>
 
 <body>
 
 <header>
-Julia Sztemberg
+Pola Pytkowska
 </header>
 
 <main>
 
-<h1>Studentka architektury</h1>
+<h1>Studentka medycyny</h1>
 
-<img class="landscape" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Cliffs_of_Moher_view.jpg" alt="Krajobraz nad klifami">
+<img class="gif" src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="meme gif">
 
 </main>
 
 <footer>
-© 2026 Julia Sztemberg
+Kolorowa strona internetowa • 2026
 </footer>
 
 </body>
